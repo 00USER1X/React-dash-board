@@ -1,0 +1,21 @@
+/* src/HelloWidget.css */
+.widget01 {
+    flex: 1 1 calc(25% - 12px);
+    max-width: 300px;
+    width: 100%;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.widget01:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+}
+
+.widget01 h2 {
+    margin-top: 0;
+}
