@@ -16,8 +16,8 @@
   color: white;
 }
 
-/* Additional styles to handle responsiveness */
-@media (min-width: 1280px) { /* Assuming each card is about 300px and considering gaps */
+
+@media (min-width: 1280px) {
   .App-header {
     justify-content: space-between;
     max-width: 1280px;

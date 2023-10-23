@@ -1,0 +1,25 @@
+.countdown-timer {
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .input-fields {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .start-button {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  
+  .display {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  

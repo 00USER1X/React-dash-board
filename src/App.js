@@ -1,21 +1,23 @@
+import React from 'react';
 import './App.css';
-import Widget01 from './components/Widget01/Widget01';
-import Widget02 from './components/Widget02/Widget02';
-import Widget03 from './components/Widget03/Widget03';
-import Widget04 from './components/Widget04/Widget04';
+import DigitalClock from './components/DigitalClock';
+import Calculator from './components/Calculator';
+import CountdownTimer from './components/CountdownTimer';
+import PomodoroTimer from './components/PomodoroTimer';
+import ToDoList from './components/ToDoList';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Widget01 />
-        <Widget02 />
-        <Widget03 />
-        <Widget04 />
-        {/* You can add more widgets here if you wish */}
-      </header>
+    <div className="app">
+      <DigitalClock />
+      <Calculator/>
+      <CountdownTimer/>
+      <PomodoroTimer/>
+      <ToDoList/>
     </div>
   );
 }
 
 export default App;
+
