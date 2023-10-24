@@ -33,7 +33,7 @@ function ToDoList() {
             <button onClick={() => deleteTask(index)}>Delete</button>
           </li>
 
-         rr 
+        
         ))}
       </ul>
     </div>
